@@ -28,7 +28,10 @@ function encodeFilter(filter) {
 
 export default {
   login: () => "/user/login",
-  getPostList: () => `/post?filter=${encodeFilter(postListFilter)}`,
+  getPostList: () => {
+    console.log('postListFilter',postListFilter) 
+    return `/post?filter=${encodeFilter(postListFilter)}`
+  },
   getPostById: id => `/post?filter=${encodeFilter(postByIdFilter(id))}`,
   createPost: () => "/post",
   updatePost: id => `/post/${id}`,
