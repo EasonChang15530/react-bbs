@@ -2,6 +2,7 @@
   "name": "bbs-redux",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://easonchang15530.github.io/bbs-redux",
   "dependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
