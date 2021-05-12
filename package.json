@@ -1,8 +1,8 @@
 {
-  "name": "bbs-redux",
+  "name": "react-bbs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://easonchang15530.github.io/bbs-redux",
+  "homepage": "https://easonchang15530.github.io/react-bbs",
   "dependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
