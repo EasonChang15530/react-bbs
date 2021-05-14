@@ -35,14 +35,14 @@ class PostList extends Component {
       <div className="postList">
         <div>
           <h2>话题列表</h2>
-          {user.userId ? (
+          {/* {user.userId ? (
             <button onClick={this.handleNewPost}>发帖</button>
-          ) : null}
+          ) : null} */}
         </div>
-        {isAddDialogOpen ? (
+        {/* {isAddDialogOpen ? (
           <PostEditor onSave={this.handleSave} onCancel={this.handleCancel} />
         ) : null}
-        <PostsView posts={posts}/>
+        <PostsView posts={posts}/> */}
       </div>
     );
   }

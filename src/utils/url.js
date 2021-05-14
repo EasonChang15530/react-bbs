@@ -29,11 +29,13 @@ function encodeFilter(filter) {
 export default {
   login: () => "/user/login",
   getPostList: () => {
-    console.log('postListFilter',postListFilter) 
     return `/post?filter=${encodeFilter(postListFilter)}`
   },
   getPostById: id => `/post?filter=${encodeFilter(postByIdFilter(id))}`,
-  createPost: () => "/post",
+  createPost: () => {
+
+    return "/post"
+  },
   updatePost: id => `/post/${id}`,
   getCommentList: postId =>
     `/comment?filter=${encodeFilter(commentListFilter(postId))}`,
